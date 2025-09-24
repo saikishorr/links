@@ -1,7 +1,7 @@
 const links = [
   { name: "LinkedIn", icon: "fab fa-linkedin", url: "https://www.linkedin.com/in/saikishor164/" },
   { name: "Google Dev Profile", icon: "fas fa-code", url: "https://g.dev/saikishor164" },
-  { name: "Portfolio", icon: "fas fa-globe", url: "https://saikishorr.github.io" },
+  { name: "Portfolio", icon: "fas fa-globe", url: "https://saikishor.dev" },
   { name: "GitHub", icon: "fab fa-github", url: "https://github.com/saikishorr" },
   { name: "Dev.to", icon: "fab fa-dev", url: "https://dev.to/saikishor164" },
   { name: "CodePen", icon: "fab fa-codepen", url: "https://codepen.io/saikishorrasala" },
@@ -21,3 +21,4 @@ links.forEach(link => {
   a.innerHTML = `<i class="${link.icon}"></i>${link.name}`;
   linkList.appendChild(a);
 });
+
