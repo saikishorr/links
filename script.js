@@ -1,4 +1,5 @@
 const links = [
+  { name: "Resume", icon: "fab fa-pdf", url: "https://saikishorr.github.io/images/saikishor-resume.pdf" },
   { name: "LinkedIn", icon: "fab fa-linkedin", url: "https://www.linkedin.com/in/saikishor164/" },
   { name: "Google Dev Profile", icon: "fas fa-code", url: "https://g.dev/saikishor164" },
   { name: "Portfolio", icon: "fas fa-globe", url: "https://saikishor.dev" },
@@ -21,4 +22,5 @@ links.forEach(link => {
   a.innerHTML = `<i class="${link.icon}"></i>${link.name}`;
   linkList.appendChild(a);
 });
+
 
